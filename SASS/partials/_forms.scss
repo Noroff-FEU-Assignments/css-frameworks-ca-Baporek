@@ -1,0 +1,17 @@
+.me-2 {
+    margin-right: 0 !important;
+    border-radius: 2%;
+    border: none;
+    width: 250px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.btn-outline-success {
+    background: $colour-secoundary;
+    border: none;
+    color: white;
+    border-radius: 2%;
+    &:hover {
+        color: $colour-secoundary;
+        background-color: white;
+    }}

@@ -1,0 +1,11 @@
+*{box-sizing: border-box;}
+html,
+body
+{height: 100%;overflow: auto;}
+body{
+    font-family: $font-primary;
+    background-color: $colour-primary;
+    margin: 0;
+    color: $colour-text-primary;
+    display: flex;
+    flex-direction: column;}

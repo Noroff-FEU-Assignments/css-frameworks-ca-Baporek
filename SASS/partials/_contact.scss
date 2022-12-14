@@ -1,0 +1,62 @@
+h1.contact {
+    margin: 2% 0;}
+.form_container{
+    background: lighten($colour-primary, 3%);
+    color:$colour-text-imputs;
+    width: 80%;
+    padding: 30px;
+    margin: 5% auto;}
+ .order-md-1{
+        border-right: 1px solid grey;}
+.list-group{
+        margin: 1%;
+        line-height: 1.5;
+        padding: 10px;}    
+.list-group-item{
+        background-color:lighten($colour-primary, 3%);
+        border: none;
+      font-weight: 700;
+      font-family:$font-secoundary;
+      font-size: 23px;
+      color: $colour-text-imputs;
+      width: 250px;}
+.btn-submit{
+        width:100%;
+        background-color: darken($colour-text-imputs, 5%);
+        border:none;
+        border-radius: 2px;
+        margin-top: 1rem;
+            &:hover{ background-color:$colour-secoundary;}}
+fieldset{
+            position: relative;
+            font-size: 15px;
+            margin: 15px;
+            width: 80%;
+            display: flex;
+
+            input[type=checkbox] {
+                cursor: pointer;
+                accent-color: $colour-secoundary;
+                margin-right: 10px;
+                width: 20px;}}
+
+         //...@media...//
+
+        @media screen and (max-width: 992px){
+            fieldset{
+                font-size: 12px;}}
+        @media screen and (max-width: 767px){
+            .order-md-1{
+                border-right: none;}
+            .order-md-2{
+               margin-left:-10%;}
+            .form_container{
+                margin-top: 50px;}
+                .list-group { 
+                    margin: 0 auto;
+                    width: 80%;
+                    text-align: left;
+                    & .list-group-item {
+                        font-size: 15px;}}
+                label {
+                    width: 90%;}}
